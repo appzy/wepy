@@ -1,11 +1,11 @@
-## WePY 2 (alpha)
+# WePY 2 (alpha)
 
 [![npm version](https://badge.fury.io/js/wepy.svg)](https://badge.fury.io/js/wepy)
 [![travis-ci](https://travis-ci.org/Tencent/wepy.svg?branch=1.7.x)](https://travis-ci.org/Tencent/wepy)
 [![Coverage Status](https://coveralls.io/repos/github/Tencent/wepy/badge.svg?branch=1.7.x)](https://coveralls.io/github/Tencent/wepy?branch=1.7.x)
 [![Dependency Status](https://david-dm.org/Tencent/wepy.svg)](https://david-dm.org/Tencent/wepy)
 
-### 介绍
+## 介绍
 
 WePY资源汇总：[awesome-wepy](https://github.com/aben1188/awesome-wepy)
 
@@ -14,7 +14,7 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 同时WePY也是一款成长中的框架，大量吸收借鉴了一些优化前端工具以及框架的设计理念和思想。如果WePY有不足地方，或者你有更好的想法，欢迎提交ISSUE或者PR。
 
 
-### 特性：
+## 特性：
 
 * 类Vue开发风格
 * 支持自定义组件开发
@@ -27,7 +27,7 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 * 小程序细节优化，如请求列队，事件优化等
 
 
-### Demo
+## Demo
 
 ```html
 <style lang="less">
@@ -68,38 +68,38 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 
 
 
-### 安装使用
+## 安装使用
 
-#### 安装（更新） wepy 命令行工具。
+### 安装（更新） wepy 命令行工具。
 
 ```console
 npm install @wepy/cli@2.0.0-alpha.12 -g
 ```
 
-#### 生成开发示例
+### 生成开发示例
 
 ```console
 wepy init standard myproject
 ```
 
-#### 安装依赖
+### 安装依赖
 
 ```console
 cd myproject
 npm install
 ```
 
-#### 开发实时编译
+### 开发实时编译
 
 ```console
 wepy build --watch
 ```
 
-#### 开发者工具导入项目
+### 开发者工具导入项目
 
 使用`微信开发者工具`新建项目，本地开发选择项目根目录，会自动导入项目配置。
 
-### 哪些小程序是用 WePY 开发的
+## 哪些小程序是用 WePY 开发的
 
 腾讯疫苗查询小程序、
 腾讯翻译君小程序、
@@ -150,19 +150,19 @@ GitHub掘金版、
 
 ...
 
-### 小程序交流群
+## 小程序交流群
  
  WePY 交流群已满500人，请加 gcaufy_helper 好友或者扫码加好友，验证回复 `wepy` 按照指引进群。
 
  ![wepy_qr_code](https://user-images.githubusercontent.com/2182004/32309877-8bded674-bfc9-11e7-9daa-9ba4012690fb.png)
              
-### 参与贡献
+## 参与贡献
 
 如果你有好的意见或建议，欢迎给我们提 Issues 或 Pull Requests，为提升微信小程序开发体验贡献力量。<br>详见：[CONTRIBUTING.md](./CONTRIBUTING.md)
 
 [腾讯开源激励计划](https://opensource.tencent.com/contribution) 鼓励开发者的参与和贡献，期待你的加入。
 
-### Links
+## Links
 
 [Documentation](https://tencent.github.io/wepy/)
 
